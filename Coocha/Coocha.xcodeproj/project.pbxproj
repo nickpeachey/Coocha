@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E3090A918D7516C00536DB1 /* libServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3090A818D7516C00536DB1 /* libServices.a */; };
+		0E3090AE18D7654000536DB1 /* libDomain.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3090AD18D7654000536DB1 /* libDomain.a */; };
 		0EE3C3CC18D722D0008AA6D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE3C3CB18D722D0008AA6D2 /* Foundation.framework */; };
 		0EE3C3CE18D722D0008AA6D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE3C3CD18D722D0008AA6D2 /* CoreGraphics.framework */; };
 		0EE3C3D018D722D0008AA6D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE3C3CF18D722D0008AA6D2 /* UIKit.framework */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E3090A818D7516C00536DB1 /* libServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libServices.a; path = "../Services/build/Debug-iphoneos/libServices.a"; sourceTree = "<group>"; };
+		0E3090AD18D7654000536DB1 /* libDomain.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libDomain.a; path = "../Domain/build/Debug-iphoneos/libDomain.a"; sourceTree = "<group>"; };
 		0EE3C3C818D722D0008AA6D2 /* Coocha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coocha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EE3C3CB18D722D0008AA6D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0EE3C3CD18D722D0008AA6D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E3090AE18D7654000536DB1 /* libDomain.a in Frameworks */,
+				0E3090A918D7516C00536DB1 /* libServices.a in Frameworks */,
 				0EE3C3CE18D722D0008AA6D2 /* CoreGraphics.framework in Frameworks */,
 				0EE3C3D018D722D0008AA6D2 /* UIKit.framework in Frameworks */,
 				0EE3C3CC18D722D0008AA6D2 /* Foundation.framework in Frameworks */,
@@ -106,6 +112,8 @@
 		0EE3C3CA18D722D0008AA6D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0E3090AD18D7654000536DB1 /* libDomain.a */,
+				0E3090A818D7516C00536DB1 /* libServices.a */,
 				0EE3C3CB18D722D0008AA6D2 /* Foundation.framework */,
 				0EE3C3CD18D722D0008AA6D2 /* CoreGraphics.framework */,
 				0EE3C3CF18D722D0008AA6D2 /* UIKit.framework */,
@@ -424,7 +432,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Coocha/Coocha-Prefix.pch";
 				INFOPLIST_FILE = "Coocha/Coocha-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/nickpeachey/Documents/developer/iOS/Coocha/Services/build/Debug-iphoneos",
+					"/Users/nickpeachey/Documents/developer/iOS/Coocha/Domain/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "../**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -438,7 +452,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Coocha/Coocha-Prefix.pch";
 				INFOPLIST_FILE = "Coocha/Coocha-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/nickpeachey/Documents/developer/iOS/Coocha/Services/build/Debug-iphoneos",
+					"/Users/nickpeachey/Documents/developer/iOS/Coocha/Domain/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "../**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

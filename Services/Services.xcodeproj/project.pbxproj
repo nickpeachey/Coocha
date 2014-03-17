@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E3090A718D7503C00536DB1 /* UserInformationServiceREST.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3090A618D7503C00536DB1 /* UserInformationServiceREST.m */; };
 		0EE3C40D18D72F95008AA6D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE3C40C18D72F95008AA6D2 /* Foundation.framework */; };
 		0EE3C41B18D72F95008AA6D2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE3C41A18D72F95008AA6D2 /* XCTest.framework */; };
 		0EE3C41C18D72F95008AA6D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE3C40C18D72F95008AA6D2 /* Foundation.framework */; };
@@ -41,6 +42,9 @@
 
 /* Begin PBXFileReference section */
 		097C64D4376A47F5B96DA24F /* Pods-ServicesTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServicesTests.xcconfig"; path = "../Pods/Pods-ServicesTests.xcconfig"; sourceTree = "<group>"; };
+		0E3090A418D74EFB00536DB1 /* UserInformationDatasource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInformationDatasource.h; sourceTree = "<group>"; };
+		0E3090A518D7503C00536DB1 /* UserInformationServiceREST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInformationServiceREST.h; sourceTree = "<group>"; };
+		0E3090A618D7503C00536DB1 /* UserInformationServiceREST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInformationServiceREST.m; sourceTree = "<group>"; };
 		0EE3C40918D72F95008AA6D2 /* libServices.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libServices.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EE3C40C18D72F95008AA6D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0EE3C41018D72F95008AA6D2 /* Services-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Services-Prefix.pch"; sourceTree = "<group>"; };
@@ -112,6 +116,9 @@
 			isa = PBXGroup;
 			children = (
 				0EE3C40F18D72F95008AA6D2 /* Supporting Files */,
+				0E3090A418D74EFB00536DB1 /* UserInformationDatasource.h */,
+				0E3090A518D7503C00536DB1 /* UserInformationServiceREST.h */,
+				0E3090A618D7503C00536DB1 /* UserInformationServiceREST.m */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -258,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E3090A718D7503C00536DB1 /* UserInformationServiceREST.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

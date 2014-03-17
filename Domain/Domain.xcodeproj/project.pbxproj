@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E3090AC18D7632F00536DB1 /* UserBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3090AB18D7632F00536DB1 /* UserBuilder.m */; };
 		0EE3C43F18D72FE7008AA6D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE3C43E18D72FE7008AA6D2 /* Foundation.framework */; };
 		0EE3C44D18D72FE7008AA6D2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE3C44C18D72FE7008AA6D2 /* XCTest.framework */; };
 		0EE3C44E18D72FE7008AA6D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE3C43E18D72FE7008AA6D2 /* Foundation.framework */; };
@@ -41,6 +42,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0E3090AA18D7632F00536DB1 /* UserBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserBuilder.h; sourceTree = "<group>"; };
+		0E3090AB18D7632F00536DB1 /* UserBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserBuilder.m; sourceTree = "<group>"; };
 		0EE3C43B18D72FE7008AA6D2 /* libDomain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDomain.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EE3C43E18D72FE7008AA6D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0EE3C44218D72FE7008AA6D2 /* Domain-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Domain-Prefix.pch"; sourceTree = "<group>"; };
@@ -117,6 +120,8 @@
 				0EE3C44118D72FE7008AA6D2 /* Supporting Files */,
 				0EE3C46418D731E6008AA6D2 /* User.h */,
 				0EE3C46518D731E6008AA6D2 /* User.m */,
+				0E3090AA18D7632F00536DB1 /* UserBuilder.h */,
+				0E3090AB18D7632F00536DB1 /* UserBuilder.m */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -263,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E3090AC18D7632F00536DB1 /* UserBuilder.m in Sources */,
 				0EE3C46618D731E6008AA6D2 /* User.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

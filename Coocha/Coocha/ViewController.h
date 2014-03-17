@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Services/UserInformationDatasource.h"
 
 @interface ViewController : UIViewController
+
+-(id)initWithDataSource:(id<UserInformationDatasource>)dataSource;
+
+@property (nonatomic) id<UserInformationDatasource> dataSource;
 
 @end
