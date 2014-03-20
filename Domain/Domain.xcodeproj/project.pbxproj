@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E3090AC18D7632F00536DB1 /* UserBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3090AB18D7632F00536DB1 /* UserBuilder.m */; };
+		0EA223B518DAF5CB007F8C9C /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA223B418DAF5CB007F8C9C /* User.m */; };
 		0EE3C43F18D72FE7008AA6D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE3C43E18D72FE7008AA6D2 /* Foundation.framework */; };
 		0EE3C44D18D72FE7008AA6D2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE3C44C18D72FE7008AA6D2 /* XCTest.framework */; };
 		0EE3C44E18D72FE7008AA6D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE3C43E18D72FE7008AA6D2 /* Foundation.framework */; };
 		0EE3C45018D72FE7008AA6D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE3C44F18D72FE7008AA6D2 /* UIKit.framework */; };
 		0EE3C45318D72FE7008AA6D2 /* libDomain.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE3C43B18D72FE7008AA6D2 /* libDomain.a */; };
 		0EE3C45918D72FE7008AA6D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EE3C45718D72FE7008AA6D2 /* InfoPlist.strings */; };
-		0EE3C46618D731E6008AA6D2 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE3C46518D731E6008AA6D2 /* User.m */; };
 		0EE3C46918D7320A008AA6D2 /* UserSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE3C46818D7320A008AA6D2 /* UserSpecs.m */; };
 		D4E2D9F04679458F8A58DD6C /* libPods-DomainTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF03B5B0B0F40EAB73D4256 /* libPods-DomainTests.a */; };
 /* End PBXBuildFile section */
@@ -42,8 +41,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0E3090AA18D7632F00536DB1 /* UserBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserBuilder.h; sourceTree = "<group>"; };
-		0E3090AB18D7632F00536DB1 /* UserBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserBuilder.m; sourceTree = "<group>"; };
+		0EA223B318DAF5CB007F8C9C /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		0EA223B418DAF5CB007F8C9C /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		0EE3C43B18D72FE7008AA6D2 /* libDomain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDomain.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EE3C43E18D72FE7008AA6D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0EE3C44218D72FE7008AA6D2 /* Domain-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Domain-Prefix.pch"; sourceTree = "<group>"; };
@@ -52,8 +51,6 @@
 		0EE3C44F18D72FE7008AA6D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		0EE3C45618D72FE7008AA6D2 /* DomainTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DomainTests-Info.plist"; sourceTree = "<group>"; };
 		0EE3C45818D72FE7008AA6D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0EE3C46418D731E6008AA6D2 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
-		0EE3C46518D731E6008AA6D2 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		0EE3C46818D7320A008AA6D2 /* UserSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserSpecs.m; sourceTree = "<group>"; };
 		5F90345294B5425385BD9ABD /* Pods-DomainTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DomainTests.xcconfig"; path = "../Pods/Pods-DomainTests.xcconfig"; sourceTree = "<group>"; };
 		9BF03B5B0B0F40EAB73D4256 /* libPods-DomainTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DomainTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,10 +115,8 @@
 			isa = PBXGroup;
 			children = (
 				0EE3C44118D72FE7008AA6D2 /* Supporting Files */,
-				0EE3C46418D731E6008AA6D2 /* User.h */,
-				0EE3C46518D731E6008AA6D2 /* User.m */,
-				0E3090AA18D7632F00536DB1 /* UserBuilder.h */,
-				0E3090AB18D7632F00536DB1 /* UserBuilder.m */,
+				0EA223B318DAF5CB007F8C9C /* User.h */,
+				0EA223B418DAF5CB007F8C9C /* User.m */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -268,8 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E3090AC18D7632F00536DB1 /* UserBuilder.m in Sources */,
-				0EE3C46618D731E6008AA6D2 /* User.m in Sources */,
+				0EA223B518DAF5CB007F8C9C /* User.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

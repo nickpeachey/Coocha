@@ -2,7 +2,7 @@
 //  User.h
 //  Domain
 //
-//  Created by nick on 17/03/2014.
+//  Created by Nick Peachey on 20/03/2014.
 //  Copyright (c) 2014 Cawooka. All rights reserved.
 //
 
